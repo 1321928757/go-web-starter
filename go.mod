@@ -13,7 +13,6 @@ require (
 	github.com/redis/go-redis/v9 v9.0.5
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.16.0
-	github.com/swaggo/gin-swagger v1.3.0
 	github.com/swaggo/swag v1.16.1
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.42
 	go.uber.org/zap v1.25.0

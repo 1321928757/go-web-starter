@@ -4927,3 +4927,63 @@
 
 2023/08/22 15:27:02 D:/GoLandProjects/online-practice-system/app/dao/MediaDao.go:21
 [0.000ms] [rows:1] SELECT * FROM `media` WHERE `media`.`id` = 31 ORDER BY `media`.`id` LIMIT 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.513ms] [rows:-] SELECT DATABASE()
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[1.075ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'go_test%' ORDER BY SCHEMA_NAME='go_test' DESC,SCHEMA_NAME limit 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[1.061ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'go_test' AND table_name = 'user' AND table_type = 'BASE TABLE'
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT DATABASE()
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.536ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'go_test%' ORDER BY SCHEMA_NAME='go_test' DESC,SCHEMA_NAME limit 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT * FROM `user` LIMIT 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.512ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'go_test' AND table_name = 'user' ORDER BY ORDINAL_POSITION
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT DATABASE()
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'go_test%' ORDER BY SCHEMA_NAME='go_test' DESC,SCHEMA_NAME limit 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.543ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'go_test' AND table_name = 'user' AND index_name = 'idx_user_deleted_at'
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT DATABASE()
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.564ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'go_test%' ORDER BY SCHEMA_NAME='go_test' DESC,SCHEMA_NAME limit 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.505ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'go_test' AND table_name = 'media' AND table_type = 'BASE TABLE'
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT DATABASE()
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'go_test%' ORDER BY SCHEMA_NAME='go_test' DESC,SCHEMA_NAME limit 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT * FROM `media` LIMIT 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.509ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'go_test' AND table_name = 'media' ORDER BY ORDINAL_POSITION
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.000ms] [rows:-] SELECT DATABASE()
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.638ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'go_test%' ORDER BY SCHEMA_NAME='go_test' DESC,SCHEMA_NAME limit 1
+
+2023/08/22 15:42:09 D:/GoLandProjects/online-practice-system/bootstrap/DB.go:68
+[0.505ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'go_test' AND table_name = 'media' AND index_name = 'idx_media_disk_type'
