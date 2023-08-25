@@ -27,7 +27,7 @@ type CustomClaims struct {
 
 const (
 	TokenType    = "bearer"
-	AppGuardName = "app" //token 的颁发者的名称. 用于在中间件中区分不同客户端颁发的 token，避免 token 跨端使用(与其他网站的 token 混淆)
+	AppGuardName = "internal" //token 的颁发者的名称. 用于在中间件中区分不同客户端颁发的 token，避免 token 跨端使用(与其他网站的 token 混淆)
 )
 
 type TokenOutPut struct {

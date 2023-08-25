@@ -436,3 +436,4 @@ D:/Enviroment/go/src/runtime/asm_amd64.s:1598 (0x7c7be0)
 [2023-08-22 15:26:15.921]	local.info	bootstrap/DB.go:53	mysql数据库连接成功~~~~~
 [2023-08-22 15:42:06.395]	local.fatal	bootstrap/Router.go:72	服务器顺利关闭~~~
 [2023-08-22 15:42:09.961]	local.info	bootstrap/DB.go:53	mysql数据库连接成功~~~~~
+[2023-08-22 20:26:54.181]	local.fatal	bootstrap/Router.go:72	服务器顺利关闭~~~

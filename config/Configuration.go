@@ -6,7 +6,7 @@ package config
 viper 会根据标签 value 值把 config.yaml 的数据赋予给结构体
 */
 type Configuration struct {
-	App      App      `mapstructure:"app" json:"app" yaml:"app"`
+	App      App      `mapstructure:"internal" json:"internal" yaml:"internal"`
 	Log      Log      `mapstructure:"log" json:"log" yaml:"log"`
 	Database Database `mapstructure:"database" json:"database" yaml:"database"`
 	Jwt      Jwt      `mapstructure:"jwt" json:"jwt" yaml:"jwt"`

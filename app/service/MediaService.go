@@ -49,8 +49,8 @@ func (mediaService *mediaService) SaveImage(params request.ImageUpload) (result 
 
 	localPrefix := ""
 	srcType := int8(2) // 本地保存为1相对路径，云存储保存为2网络链接
-	// 本地文件存放路径为 storage/app/public，我们为文件路径配置了路由，
-	// 配置了静态资源处理路由 router.Static("/storage", "./storage/app/public")
+	// 本地文件存放路径为 storage/internal/public，我们为文件路径配置了路由，
+	// 配置了静态资源处理路由 router.Static("/storage", "./storage/internal/public")
 	// 所以此处不需要将 public/ 存入到 mysql 中，防止后续拼接文件 Url 错误
 	if storage.DriverName(global.App.Config.Storage.Default) == storage.Local {
 		localPrefix = "public" + "/"

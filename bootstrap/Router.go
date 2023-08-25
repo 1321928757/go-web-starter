@@ -23,7 +23,7 @@ func setupRouter() *gin.Engine {
 	router.Use(gin.Logger(), middleware.Cors(), middleware.CustomRecovery())
 
 	// 前端项目静态资源
-	router.Static("/storage", "./storage/app/public")
+	router.Static("/storage", "./storage/internal/public")
 	//router.StaticFile("/", "./static/dist/index.html")
 	//router.Static("/js", "./static/dist/js")
 	//router.Static("/fonts", "./static/dist/fonts")
