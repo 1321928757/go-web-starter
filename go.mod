@@ -1,4 +1,4 @@
-module go-web-starter
+module online-practice-system
 
 go 1.20
 
