@@ -63,9 +63,9 @@ storage: # 存储配置
       is_ssl: true
       is_private: false
     tecent_cos:
-      secret_id: AKID3zhCTVJtFMErGQLL8h071g6KMCn9dvzq
-      secret_key: iEWbVChz3vYzEAtdHK6qQoxrY5OSItGO
-      bucket_url: https://cos-1314434715.cos.ap-chengdu.myqcloud.com
+      secret_id: cos的secret_id
+      secret_key: cos的secret_key
+      bucket_url: https://cos-123.cos.ap-chengdu.myqcloud.com
       bucket: cos-1314434715
       domain: ap-chengdu
       is_ssl: true
